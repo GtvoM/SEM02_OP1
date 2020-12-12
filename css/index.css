@@ -1,0 +1,55 @@
+* {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+body {
+  background: #fff url("../img/Codigo.png") top center no-repeat;
+  font-family: 'Varela Round', sans-serif;
+  display: -webkit-box;
+  display: flex;
+}
+.gtvo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15rem;
+  width: 400px;
+}
+input {
+  background-image: none;
+  border: none;
+  font: inherit;
+  margin: 15px 0;
+  padding: 0;
+  border-radius: 3px;
+}
+#login  input[type="email"], #login input[type="password"] {
+  border: 2px solid #eee;
+  color: #777;
+  padding: 15px 10px;
+  width: 100%;
+}
+
+#login input[type="submit"] {
+  background: #33cc77;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 0;
+  width: 100px;
+}
+
+#login input[type="submit"]:hover {
+  background: #28ad63;
+}
+
+@media only screen and (max-width: 480px) {
+	body {
+    background-size: contain;
+  }
+  .gtvo {
+    margin-top: 8rem;
+  }
+}
